@@ -28,6 +28,4 @@ for subject, day, week, para in zip(ws[subject_col], ws[day_col], ws[week_col], 
     if ((subject.value != None) and len(ws[week_col]) % 2 == 0):
         print(para.value, subject.value)
 
-    for row in range(2, 88):
-        if row % 2 == 0:
-            print(para.value, subject.value)
+    
